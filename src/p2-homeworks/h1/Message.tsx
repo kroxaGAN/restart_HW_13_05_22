@@ -1,4 +1,5 @@
 import React from 'react'
+import s from './Message.module.css'
 
 type PropsType = {
     avatar: string
@@ -9,14 +10,14 @@ type PropsType = {
 
 export const Message = ({avatar, name, message, time}: PropsType) => {
     return (
-        <div>
-            <img src={avatar} alt={''}/>
-            <div>
+        <div className={s.message}>
+            <img src={avatar} alt={''} className={s.img}/>
+            <div className={s.textMes}>
                 {name}
-                <div>
+                <div className={s.name}>
                     {message}
-                    <div>{time}</div>
                 </div>
+                <div className={s.time}>{time}</div>
             </div>
         </div>
     )

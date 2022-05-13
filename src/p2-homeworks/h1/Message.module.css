@@ -1,3 +1,30 @@
 .message {
+    display: flex;
+    background-color: #ded6d6;
+}
 
+.img {
+    width: 70px;
+    height: 70px;
+}
+
+.text {
+    display: flex;
+}
+
+.name {
+    background-color: coral;
+    display: flex;
+}
+
+.textMes {
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.time {
+    background-color: aquamarine;
 }
