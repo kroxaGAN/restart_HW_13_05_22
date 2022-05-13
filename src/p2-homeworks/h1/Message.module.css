@@ -27,4 +27,20 @@
 
 .time {
     background-color: aquamarine;
+    text-align: end;
+    padding-left: 20px;
+}
+
+.textTime {
+    display: flex;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-position: right bottom;
+    background-color: mistyrose;
+
+    background-image: radial-gradient(black 0%, black 70%, transparent 70%);
 }
