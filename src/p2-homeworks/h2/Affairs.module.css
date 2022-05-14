@@ -7,11 +7,12 @@
 }
 .prioriti{
     padding: 3px;
+    color: #24563b;
 }
 .display{
     display: flex;
     width: 350px;
     height: 150px;
-    background-color: aquamarine;
+    background-color: #95b9a7;
     flex-direction: column;
 }
