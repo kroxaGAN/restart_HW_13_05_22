@@ -15,7 +15,6 @@
 }
 
 .text {
-    background-color: coral;
     margin: 2px;
     display: table-cell;
 }
@@ -23,10 +22,10 @@
 .textMes {
     border-radius: 5px 5px 5px 0;
     background-color: gold;
+    padding: 10px;
 }
 
 .time {
-    background-color: aquamarine;
     padding-left: 20px;
     display: table-cell;
     vertical-align: bottom;
