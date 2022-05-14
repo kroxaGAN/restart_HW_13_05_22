@@ -1,3 +1,17 @@
 .someClass {
-
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    padding: 3px;
+}
+.prioriti{
+    padding: 3px;
+}
+.display{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color: aquamarine;
+    flex-direction: column;
 }
