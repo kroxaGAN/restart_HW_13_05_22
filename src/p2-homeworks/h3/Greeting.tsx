@@ -14,10 +14,13 @@ const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
 ) => {
     const inputClass = error ? s.error : s.someClass // need to fix with (?:)
+    const onBlurHandler = () => {
+        addUser()
+    }
 
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
+            <input value={name} onChange={setNameCallback} className={inputClass} onBlur={onBlurHandler}/>
             <span className={s.textError}>{error}</span>
             <button onClick={addUser} disabled={!!error}>add</button>
             <span>{totalUsers}</span>
